@@ -1,6 +1,34 @@
 .seccion_principal {
     background: #CCCCCC;
-    padding: 22px;
+    padding: 20px;
     text-align: center;
     font-size: 18PX;
+}
+
+.imagen_banner {
+    width: 100%;
+}
+
+.diferenciales {
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.nombre_diferenciales {
+    text-align: center;
+}
+
+.items {
+    font-style: italic;
+}
+
+.lista_diferenciales {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagen_diferenciales {
+    width: 50%;
 }
