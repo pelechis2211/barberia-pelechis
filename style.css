@@ -1,38 +1,103 @@
-.titulo_principal {
-    padding-left: 30px;
+.cabecera {
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
 
-.seccion_principal {
-    background: #CCCCCC;
-    padding: 20px;
-    text-align: center;
-    font-size: 18PX;
+.caja_navegacion {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-.imagen_banner {
-    width: 100%;
+.imagen_logo {
+    width: 250px;
 }
 
-.diferenciales {
-    background: #FFFFFF;
-    padding: 30px;
+.navegacion {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.nombre_diferenciales {
-    text-align: center;
+.navegacion .items {
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-.items {
-    font-style: italic;
+.navegacion a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-.lista_diferenciales {
+.navegacion a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos .producto_lista {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+
+    border-radius: 10px;
 }
 
-.imagen_diferenciales {
-    width: 50%;
+.productos .producto_lista:hover {
+    border-color: #c78c19;
+}
+
+.productos .producto_lista:active {
+    border-color: #088c19;
+}
+
+.nombre_producto {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos .producto_lista:hover .nombre_producto {
+    font-size: 33px;
+}
+
+.descripcion_producto {
+    font-size: 18px;
+}
+
+.precio_producto {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.pie_pagina {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.imagen_pie_pagina {
+    width: 250px;
+}
+
+.parrafo_pie_pagina {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px
 }
