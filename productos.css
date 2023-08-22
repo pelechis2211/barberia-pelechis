@@ -32,6 +32,11 @@
     text-decoration: none;
 }
 
+.navegacion a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 .productos {
     width: 940px;
     margin: 0 auto;
@@ -54,9 +59,21 @@
     border-radius: 10px;
 }
 
+.productos .producto_lista:hover {
+    border-color: #c78c19;
+}
+
+.productos .producto_lista:active {
+    border-color: #088c19;
+}
+
 .nombre_producto {
     font-size: 30px;
     font-weight: bold;
+}
+
+.productos .producto_lista:hover .nombre_producto {
+    font-size: 33px;
 }
 
 .descripcion_producto {
