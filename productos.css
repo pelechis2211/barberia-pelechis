@@ -85,3 +85,19 @@
     font-weight: bold;
     margin-top: 10px;
 }
+
+.pie_pagina {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.imagen_pie_pagina {
+    width: 250px;
+}
+
+.parrafo_pie_pagina {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px
+}
