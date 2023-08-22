@@ -10,7 +10,7 @@
 <body>
     <header class="cabecera">
         <div class="caja_navegacion">
-            <h1><img src="imagenes/logo color.png" class="imagen_logo" alt=""></h1>
+            <h1><img src="imagenes/logo color.png" class="imagen_logo" alt="Logo de la barberia Pelechis"></h1>
             <nav class="navegacion">
                 <ul>
                     <li class="items"><a href="index.html">Inicio</a></li>
@@ -22,18 +22,42 @@
     </header>
 
     <main>
-        <form class="formulario">
+        <form>
             <label for="nombres">Nombres</label>
-            <input type="text" id="nombres">
+            <input type="text" id="nombres" class="input-padron" required>
 
             <label for="apellidos">Apellidos</label>
-            <input type="text" id="apellidos">
+            <input type="text" id="apellidos" class="input-padron" required>
 
             <label for="email">Correo Electrónico</label>
-            <input type="text" id="email">
+            <input type="email" id="email" class="input-padron" required placeholder="email@dominio.com">
 
             <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono">
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(xx) xxxx xxxx">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" cols="68" rows="10" class="input-padron" required></textarea>
+
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>¿Cómo cuál horario prefiere ser atendido</legend>
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </fieldset>
+            
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Pelechis?</label>
 
             <input type="submit" value="Enviar Formulario">
         </form>
@@ -41,7 +65,7 @@
     </main>
 
     <footer class="pie_pagina">
-        <img class="imagen_pie_pagina" src="imagenes/logo blanco.png" alt="">
+        <img class="imagen_pie_pagina" src="imagenes/logo blanco.png" alt="Logo de la barberia Pelechis">
         <p class="parrafo_pie_pagina">&copy Copyright Barbería Pelechis - 2023</p>
     </footer>  
 </body>

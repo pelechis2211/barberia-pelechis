@@ -1,3 +1,5 @@
+/* productos */
+
 .cabecera {
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -106,23 +108,27 @@
 
 main {
     width: 940px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
-.formulario {
+form {
     margin: 40px 0;
 }
 
-.formulario label {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-.formulario input {
+.input-padron {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
 
