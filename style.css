@@ -150,3 +150,18 @@ form label, form legend {
     transform: scale(1.2);
 }
 
+.tabla {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+.tabla_celda, .tabla_encabezado {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
