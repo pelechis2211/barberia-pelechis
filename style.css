@@ -1,4 +1,4 @@
-/* productos */
+/* Cabecera */
 
 .cabecera {
     background-color: #BBBBBB;
@@ -38,6 +38,8 @@
     color: #c78c19;
     text-decoration: underline;
 }
+
+/* Productos */
 
 .productos {
     width: 940px;
@@ -88,6 +90,8 @@
     margin-top: 10px;
 }
 
+/* pie página */
+
 .pie_pagina {
     text-align: center;
     background: url(imagenes/bg.jpg);
@@ -104,7 +108,7 @@
     margin: 20px
 }
 
-/* Contacto */
+/* CSS Contacto */
 
 main {
     width: 940px;
@@ -164,4 +168,74 @@ thead {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+/* inicia nuestra Home */
+
+.imagen_banner {
+    width: 100%;
+}
+
+.seccion_principal {
+    margin: 0 0 2em;
+}
+
+.nombre_sobre_nosotros {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+} 
+
+.parrafo_sobre_nosotros {
+    font-size: 18px;
+    margin: 0 0 2em;
+}
+
+.parrafo_sobre_nosotros strong {
+    font-weight: bold;
+}
+
+.parrafo_sobre_nosotros em {
+    font-style: italic;
+}
+
+.MyV {
+    margin: 2em 0 2em;
+}
+
+.nombre_mision, .nombre_vision {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+}
+
+.parrafo_mision, .parrafo_vision {
+    font-size: 18px;
+}
+
+.diferenciales {
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.nombre_diferenciales {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+}
+
+.items {
+    font-style: italic;
+}
+
+.lista_diferenciales {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagen_diferenciales {
+    width: 60%;
+}
+
 
