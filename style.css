@@ -126,6 +126,7 @@ form {
 form label, form legend {
     display: block;
     font-size: 20px;
+    font-weight: bold;
     margin: 0 0 10px;
 }
 
@@ -183,7 +184,7 @@ thead {
     margin: 0 0 2em;
 }
 
-.nombre_sobre_nosotros {
+.nombre_sobre_nosotros  {
     text-align: center;
     font-size: 3em;
     font-weight: bold;
@@ -195,7 +196,7 @@ thead {
     width: 420px;
     height: 314px;
     float: left;
-    margin: 0 20px 20px 20px;
+    margin: 0 20px 20px 18px;
 }
 
 .parrafo_sobre_nosotros {
@@ -217,12 +218,24 @@ thead {
 
 .nombre_mision, .nombre_vision {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: bold;
     margin: 20px 0 10px;
 }
 
 .parrafo_mision, .parrafo_vision {
+    font-size: 18px;
+}
+
+/* mapa */
+
+.mapa {
+    padding: 3em 0;
+}
+
+.parrafo_mapa {
+    margin: 0 0 2em;
+    text-align: center;
     font-size: 18px;
 }
 
@@ -233,9 +246,9 @@ thead {
     padding: 30px;
 }
 
-.nombre_diferenciales {
+.nombre_diferenciales, .titulo_mapa {
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     margin: 0 0 1em;
     clear: left;
