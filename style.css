@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Cabecera */
 
 .cabecera {
@@ -30,7 +34,7 @@
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 25px;
     text-decoration: none;
 }
 
@@ -72,12 +76,12 @@
 }
 
 .nombre_producto {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .productos .producto_lista:hover .nombre_producto {
-    font-size: 33px;
+    font-size: 30px;
 }
 
 .descripcion_producto {
@@ -182,12 +186,21 @@ thead {
 .nombre_sobre_nosotros {
     text-align: center;
     font-size: 3em;
+    font-weight: bold;
     margin: 0 0 1em;
+    clear: left;
 } 
+
+.utensilios {
+    width: 420px;
+    height: 314px;
+    float: left;
+    margin: 0 20px 20px 20px;
+}
 
 .parrafo_sobre_nosotros {
     font-size: 18px;
-    margin: 0 0 2em;
+    margin: 0 0 1em;
 }
 
 .parrafo_sobre_nosotros strong {
@@ -199,18 +212,21 @@ thead {
 }
 
 .MyV {
-    margin: 2em 0 2em;
+    margin: 1em 0 1em;
 }
 
 .nombre_mision, .nombre_vision {
     text-align: center;
     font-size: 2em;
-    margin: 1em 0 1em;
+    font-weight: bold;
+    margin: 20px 0 10px;
 }
 
 .parrafo_mision, .parrafo_vision {
     font-size: 18px;
 }
+
+/*Diferenciales*/
 
 .diferenciales {
     background: #FFFFFF;
@@ -220,7 +236,9 @@ thead {
 .nombre_diferenciales {
     text-align: center;
     font-size: 3em;
+    font-weight: bold;
     margin: 0 0 1em;
+    clear: left;
 }
 
 .items {
