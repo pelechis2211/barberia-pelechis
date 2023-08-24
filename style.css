@@ -114,11 +114,6 @@ body {
 
 /* CSS Contacto */
 
-main {
-    width: 940px;
-    margin: 30px auto;
-}
-
 form {
     margin: 40px 0;
 }
@@ -181,7 +176,10 @@ thead {
 }
 
 .seccion_principal {
-    margin: 0 0 2em;
+    padding: 1em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 10px auto;
 }
 
 .nombre_sobre_nosotros  {
@@ -231,6 +229,7 @@ thead {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 .parrafo_mapa {
@@ -239,7 +238,17 @@ thead {
     font-size: 18px;
 }
 
+.mapa_contenido {
+    width: 940px;
+    margin: 0 auto;
+}
+
 /*Diferenciales*/
+
+.diferenciales {
+    padding: 1em 0;
+    background: #888888;
+}
 
 .nombre_diferenciales, .titulo_mapa {
     text-align: center;
@@ -266,6 +275,11 @@ thead {
 
 .items {
     line-height: 1.5;
+}
+
+.items:before {
+    padding-right: 4px;
+    content: "✂";
 }
 
 .items:first-child {
