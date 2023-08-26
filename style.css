@@ -273,16 +273,16 @@ thead {
     width: 60%;
 }
 
-.items {
+.items_diferenciales {
     line-height: 1.5;
 }
 
-.items:before {
+.items_diferenciales:before {
     padding-right: 4px;
     content: "✂";
 }
 
-.items:first-child {
+.items_diferenciales:first-child {
     font-weight: bold;
 }
 
