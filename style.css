@@ -301,4 +301,27 @@ thead {
     margin: 1em auto;
 }
 
+@media screen and (max-width:480px){
+    .imagen_logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navegacion {
+        position: static;
+    }
+    .caja_navegacion, .seccion_principal, .mapa_contenido, .contenido_diferenciales, .video {
+        width: auto;
+    }
+    .utensilios, .parrafo_sobre_nosotros {
+        width: 100%;
+        margin: 0 20px 20px 0;
+    }
+    .lista_diferenciales, .imagen_diferenciales {
+        width: 100%;
+        margin: 0 20px 20px 0;
+    }
+
+}
+
 
