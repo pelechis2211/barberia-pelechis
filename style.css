@@ -115,7 +115,7 @@ body {
 /* CSS Contacto */
 
 form {
-    margin: 40px 0;
+    margin: 40px 10px;
 }
 
 form label, form legend {
@@ -195,6 +195,7 @@ thead {
     height: 314px;
     float: left;
     margin: 0 20px 20px 18px;
+    border-radius: 10px;
 }
 
 .parrafo_sobre_nosotros {
@@ -271,6 +272,13 @@ thead {
 
 .imagen_diferenciales {
     width: 60%;
+    transition: 400ms;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px 10px #000000;
+}
+
+.imagen_diferenciales:hover {
+    opacity: 0.3;
 }
 
 .items_diferenciales {
